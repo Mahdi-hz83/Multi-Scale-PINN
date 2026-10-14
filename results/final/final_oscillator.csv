@@ -1,0 +1,2 @@
+problem,model,epochs,seed,parameters,training_time_seconds,final_loss,mse,mae,relative_l2_error,max_absolute_error
+Oscillator,Final MSF-PINN Architecture,4000,42,2665,15.183419197999683,3.896148882631678e-06,3.987334480370919e-07,0.0006230477010831237,0.0008190209046006203,0.0007817894220352173

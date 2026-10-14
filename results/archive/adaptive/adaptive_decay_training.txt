@@ -1,0 +1,20 @@
+Adaptive 3S-PINN Exponential Decay ODE
+======================================================================
+Seed: 42
+Epochs: 5000
+Collocation Points: 100
+Learning Rate: 0.001
+Parameters: 2852
+Final Loss: 3.7178375578e-07
+Minimum Loss: 3.3317149928e-07
+Minimum Loss Epoch: 4985
+MSE: 1.7265286090e-08
+MAE: 1.2688648712e-04
+Relative L2 Error: 1.9980668731e-04
+Maximum Error: 1.8522143364e-04
+Training Time: 22.375901
+
+Learned Scale Weights
+Low:  0.3448133171
+Mid:  0.3405297101
+High: 0.3146569729

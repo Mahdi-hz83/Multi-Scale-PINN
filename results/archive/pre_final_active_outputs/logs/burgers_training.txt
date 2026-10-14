@@ -1,0 +1,14 @@
+Adaptive Multi-Scale PINN (No Fourier)
+Fair comparison run: seed=42, epochs=5000, Adam, lr=1e-3
+problem: burgers
+model: Multi-Scale PINN (No Fourier)
+epochs: 5000
+seed: 42
+parameters: 2988
+training_time_seconds: 57.505810077000206
+final_loss: 0.009080513380467892
+mse: 0.022368310019373894
+mae: 0.04738361015915871
+relative_l2_error: 0.2455005794763565
+max_absolute_error: 1.6380741596221924
+scale_weights: [0.27146410942077637, 0.2672068774700165, 0.46132898330688477]

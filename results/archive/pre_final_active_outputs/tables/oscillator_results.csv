@@ -1,0 +1,2 @@
+model,problem,epochs,seed,parameters,training_time_seconds,final_loss,mse,mae,relative_l2_error,max_absolute_error,scale_weights,fourier_features
+Multi-Scale PINN (No Fourier),oscillator,5000,42,2940,22.88638640299996,2.16966350308212e-06,2.2323745074714907e-09,4.21375225414522e-05,6.128258974058554e-05,7.635354995727539e-05,"[0.35407596826553345, 0.3260354995727539, 0.31988853216171265]",False

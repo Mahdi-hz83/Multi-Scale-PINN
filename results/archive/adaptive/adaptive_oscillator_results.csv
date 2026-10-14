@@ -1,0 +1,2 @@
+model,problem,equation,parameters,epochs,collocation_points,learning_rate,seed,final_loss,minimum_loss,minimum_loss_epoch,mse,mae,relative_l2,maximum_error,training_time,low_scale_weight,mid_scale_weight,high_scale_weight
+Adaptive 3S-PINN,Harmonic Oscillator ODE,u'' + u = 0,2852,5000,100,0.001,42,1.628451059332292e-06,1.0730818189585989e-07,4931,1.6630981747312035e-07,0.000403493526391685,0.0005289475084282458,0.00046455860137939453,57.27207210002234,0.3591547,0.32605278,0.31479257

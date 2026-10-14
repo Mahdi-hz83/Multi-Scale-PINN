@@ -1,0 +1,2 @@
+model,problem,epochs,seed,parameters,training_time_seconds,final_loss,mse,mae,relative_l2_error,max_absolute_error,scale_weights,fourier_features
+Multi-Scale PINN (No Fourier),burgers,5000,42,2988,57.505810077000206,0.009080513380467892,0.022368310019373894,0.04738361015915871,0.2455005794763565,1.6380741596221924,"[0.27146410942077637, 0.2672068774700165, 0.46132898330688477]",False

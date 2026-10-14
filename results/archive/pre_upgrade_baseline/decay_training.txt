@@ -1,0 +1,40 @@
+=================================================================
+PINN Training Log
+=================================================================
+Problem: Exponential Decay ODE
+Model: PINN
+Seed: 42
+Epochs: 5000
+Collocation Points: 100
+Learning Rate: 0.001
+Hidden Dimension: 32
+Hidden Layers: 3
+=================================================================
+
+Epoch     1 | Total Loss: 1.029079e+00 | Physics: 1.312647e-02 | IC: 1.015952e+00
+Epoch   500 | Total Loss: 1.033777e-04 | Physics: 1.032158e-04 | IC: 1.619665e-07
+Epoch  1000 | Total Loss: 1.966973e-05 | Physics: 1.966364e-05 | IC: 6.096812e-09
+Epoch  1500 | Total Loss: 1.376460e-05 | Physics: 1.376317e-05 | IC: 1.432543e-09
+Epoch  2000 | Total Loss: 9.380398e-06 | Physics: 9.379633e-06 | IC: 7.648850e-10
+Epoch  2500 | Total Loss: 5.789608e-06 | Physics: 5.789225e-06 | IC: 3.822151e-10
+Epoch  3000 | Total Loss: 3.163824e-06 | Physics: 3.163658e-06 | IC: 1.657554e-10
+Epoch  3500 | Total Loss: 3.021795e-06 | Physics: 2.718473e-06 | IC: 3.033222e-07
+Epoch  4000 | Total Loss: 2.411292e-04 | Physics: 1.892943e-04 | IC: 5.183489e-05
+Epoch  4500 | Total Loss: 2.877378e-07 | Physics: 2.877319e-07 | IC: 5.972112e-12
+Epoch  5000 | Total Loss: 1.491557e-07 | Physics: 1.491461e-07 | IC: 9.606538e-12
+
+=================================================================
+Final Evaluation Results
+=================================================================
+Model: PINN
+Problem: Exponential Decay ODE
+Seed: 42
+Parameters: 2209
+Final Loss: 1.491557e-07
+Minimum Loss: 1.491557e-07
+MSE: 1.060906e-09
+MAE: 2.907294e-05
+Relative L2 Error: 4.952144e-05
+Maximum Error: 5.674362e-05
+Training Time: 9.4401 seconds
+=================================================================

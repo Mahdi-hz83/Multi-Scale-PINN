@@ -1,0 +1,2 @@
+model,problem,equation,parameters,epochs,collocation_points,learning_rate,seed,final_loss,minimum_loss,minimum_loss_epoch,mse,mae,relative_l2,maximum_error,training_time,low_scale_weight,mid_scale_weight,high_scale_weight
+Adaptive 3S-PINN,Exponential Decay ODE,u' + u = 0,2852,5000,100,0.001,42,3.7178375578150735e-07,3.3317149927825085e-07,4985,1.726528608969602e-08,0.00012688648712355644,0.0001998066873056814,0.00018522143363952637,22.375901199993677,0.34481332,0.3405297,0.31465697

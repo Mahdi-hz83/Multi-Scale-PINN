@@ -1,0 +1,2 @@
+model,problem,seed,epochs,collocation_points,hidden_dim,hidden_layers,learning_rate,parameters,final_loss,minimum_loss,mse,mae,relative_l2_error,max_absolute_error,training_time_seconds
+PINN,Exponential Decay ODE,42,5000,100,32,3,0.001,2209,1.4915568158357928e-07,1.4915568158357928e-07,1.0609055856036775e-09,2.9072940378682688e-05,4.952143717673607e-05,5.6743621826171875e-05,9.440131800001836

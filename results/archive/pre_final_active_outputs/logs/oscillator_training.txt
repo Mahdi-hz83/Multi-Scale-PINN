@@ -1,0 +1,14 @@
+Adaptive Multi-Scale PINN (No Fourier)
+Fair comparison run: seed=42, epochs=5000, Adam, lr=1e-3
+problem: oscillator
+model: Multi-Scale PINN (No Fourier)
+epochs: 5000
+seed: 42
+parameters: 2940
+training_time_seconds: 22.88638640299996
+final_loss: 2.16966350308212e-06
+mse: 2.2323745074714907e-09
+mae: 4.21375225414522e-05
+relative_l2_error: 6.128258974058554e-05
+max_absolute_error: 7.635354995727539e-05
+scale_weights: [0.35407596826553345, 0.3260354995727539, 0.31988853216171265]

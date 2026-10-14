@@ -1,0 +1,21 @@
+Adaptive Multi-Scale PINN - Burgers Training Log
+========================================================================
+Equation: u_t + u*u_x - nu*u_xx = 0
+nu: 0.003183098861838
+Domain: x in [-1,1], t in [0,1]
+IC: u(x,0) = -sin(pi*x)
+BC: u(-1,t)=u(1,t)=0
+Seed: 42
+Epochs: 50
+IC/BC/PDE points: 100/200/2000
+Architecture: {'model_type': 'Adaptive Multi-Scale Fourier PINN', 'scales': 3, 'branch_hidden_dims': (8, 16, 24), 'branch_hidden_layers': (1, 2, 3), 'feature_dim': 8, 'fusion_dim': 16, 'activation': 'Tanh', 'fusion': 'Adaptive softmax weighting + residual concatenation fusion', 'trainable_frequencies': True, 'initial_frequencies': (1.0, 3.0, 10.0)}
+Parameters: 3087
+Training time: 1.512811 s
+Final loss: 3.008467853069e-01
+mse: 1.952583640814e-01
+mae: 3.501185178757e-01
+relative_l2_error: 7.253395915031e-01
+max_absolute_error: 9.456499814987e-01
+Checkpoint reload max abs diff: 0.000000000000e+00
+Final frequencies: [1.0622994899749756, 2.90874981880188, 10.111189842224121]
+Final scale weights: [0.32499003410339355, 0.3511820137500763, 0.32382798194885254]

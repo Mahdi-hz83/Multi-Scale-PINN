@@ -1,0 +1,2 @@
+model,problem,seed,epochs,collocation_points,domain_start,domain_end,hidden_dim,feature_dim,fusion_hidden_dim,hidden_layers,low_frequency,mid_frequency,high_frequency,learning_rate,parameters,final_loss,minimum_loss,minimum_loss_epoch,mse,mae,relative_l2_error,max_absolute_error,training_time_seconds
+3S-PINN,Harmonic Oscillator ODE,42,5000,100,0.0,2.0,16,16,16,2,1.0,3.0,10.0,0.001,2849,4.031671494431066e-07,2.1903170477344247e-07,4908,4.20145305213282e-08,0.00020211271476000547,0.0002659008896443993,0.00025451183319091797,54.810890099965036
